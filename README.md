@@ -97,5 +97,5 @@ Docker Compose will handle internal balancing across the replicas (without exter
 * **Portainer (Optional UI Tool)**: https://www.portainer.io/
 
 ## ✍️ Author
-Moise Iradukunda  
+Moise Iradukunda Ingabire
 Irembo DevOps Internship Program
