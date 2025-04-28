@@ -8,8 +8,12 @@ services:
     volumes:
       - ./nginx_conf:/etc/nginx/conf.d
     networks:
-      - app-network
+      - nginx-proxy-network
+      - nodejs-app-network
 
 networks:
-  app-network:
+  nginx-proxy-network:
     driver: bridge
+  nodejs-app-network:
+    external: true
+    name: nodejs-github-stack_app-network
