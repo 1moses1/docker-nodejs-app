@@ -4,3 +4,9 @@ services:
     build: .
     deploy:
       replicas: 3
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
